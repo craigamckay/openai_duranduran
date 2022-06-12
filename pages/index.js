@@ -19,6 +19,7 @@ export default function Home() {
     const data = await response.json();
     setResult(data.result);
     setsongInput("");
+    // Added a meangingful comment
   }
 
   return (
